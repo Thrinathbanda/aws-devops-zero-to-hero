@@ -55,10 +55,7 @@ docker build -t <your-image-name> <path-to-dockerfile>
 ```
 docker tag <your-image-name>:<tag> <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
 ```
-3. Sample test
-```
-docker exec -it <container-name>
-```
+
 3. Log in to your ECR registry using the AWS CLI:
 
 ```
